@@ -2,6 +2,9 @@ package testedespesas;
 
 public class DespesaRepositorio {
 
-//    public void Grava(Despesa) {
-//    }
+    public void grava(Despesa d) {
+    }
+
+    public void Add() {
+    }
 }
