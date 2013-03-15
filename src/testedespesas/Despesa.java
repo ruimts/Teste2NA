@@ -1,13 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
 package testedespesas;
 
-/**
- *
- * @author Pc
- */
 public class Despesa {
-    
+
+    private int valor;
+    private String desc;
+
+    public void Despesa(int v, String d) {
+        this.valor = v;
+        this.desc = d;
+    }
 }
