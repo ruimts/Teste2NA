@@ -1,12 +1,16 @@
 package testedespesas;
 
+import java.util.ArrayList;
+
 public class DespesaRepositorio {
+    
+    ArrayList lista = new ArrayList();
 
     public void grava(Despesa d) {
-        //grava num sitio qq
+        lista.add(d);
     }
 
-    public void Add() {
-        //adiciona em qualquwer coisa
-    }
+//    public void Add() {
+//        //adiciona em qualquwer coisa
+//    }
 }
