@@ -9,5 +9,12 @@ package testedespesas;
  * @author Pc
  */
 public class RegDescUI {
+
+    //construtor
+    
+    public void pedeDados() 
+    {
+      
+    } 
     
 }

@@ -10,4 +10,14 @@ package testedespesas;
  */
 public class RegDescControler {
     
+    float valor;
+    String descricao;
+
+    //construtor
+    
+    public void RegDescControler(float valor, String descricao) 
+    {
+       this.valor = valor;
+       this.descricao = descricao;
+    } 
 }
